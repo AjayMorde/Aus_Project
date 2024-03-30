@@ -1,0 +1,59 @@
+#signupform {
+    margin-top: 40px;
+    max-width: 400px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 35%;
+}
+
+#signupform h1 {
+    margin-bottom: 20px;
+}
+
+#signupform input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#signupform button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signupform button:hover {
+    background-color: #45a049;
+}
+
+#signupform .userdata p {
+    margin-top: 20px;
+}
+
+#signupform .userdata p span {
+    font-size: 15px;
+}
+
+#signupform .userdata a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+#signupform .userdata a:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+@media (max-width: 520px) {
+    #signupform {
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+}

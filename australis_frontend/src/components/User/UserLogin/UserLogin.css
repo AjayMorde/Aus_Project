@@ -1,0 +1,66 @@
+
+
+
+
+#loginform {
+    margin-top: 40px;
+    max-width: 400px;
+   
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 35%;
+  
+  }
+  
+  .login form  h1  {
+    margin-bottom: 20px;
+  }
+  
+  #loginform  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  #loginform  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #loginform   button:hover {
+    background-color: #45a049;
+  }
+  
+  #loginform  .userdata p {
+    margin-top: 20px;
+  }
+  #loginform   .userdata p span {
+   font-size: 15px;
+  }
+  
+  
+  #loginform  .userdata a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px; 
+  }
+  
+  #loginform   .userdata a:hover {
+    color: #000;
+    font-weight: bold; 
+  }
+  
+
+  @media (max-width: 520px) {
+    #loginform {
+      margin-left: 20px;
+      margin-right: 15px;
+    }
+  }
